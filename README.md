@@ -80,3 +80,7 @@ Start your Laravel server:
 ```bash
 php artisan serve
 ```
+
+# SEASalon
+![seasalon](https://github.com/drunkenbtterfly/SEASalon/assets/143263391/278d4971-d78c-4c92-b553-7f51b2450ce8)
+
