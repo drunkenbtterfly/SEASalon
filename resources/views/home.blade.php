@@ -1,7 +1,7 @@
 @extends('app.layout')
 @section('content')
     <div class="section-1 flex w-full justify-center p-5 md:p-10">
-        <img class="w-full object-cover object-center h-[250px] sm:h-[600px] rounded-2xl" src="{{ asset('images/caro3.jpg') }}" alt="">
+        <img class="w-full object-cover object-center h-[250px] sm:h-[600px] rounded-2xl" src="{{ asset('images/model.webp') }}" alt="">
     </div>
 
     <div class="flex flex-col gap-5 justify-center items-center">
@@ -21,17 +21,17 @@
                 <a href="/servicess">
                     <button
                     type="submit"
-                    class="w-full px-4 py-2 text-sky-200 bg-slate-950 hover:bg-slate-800 transition rounded-lg">Explore Services</button>
+                    class="w-full px-4 py-2 text-gray-700 bg-slate-950 hover:bg-slate-800 transition rounded-lg">Explore Services</button>
                 </a>
             </div>
             <div class="s2-right sm:w-[80%]">
-                <img class="rounded-2xl shadow-xl" src="{{ asset('images/banner2.jpg') }}" alt="">
+                <img class="rounded-2xl shadow-xl" src="{{ asset('images/1.webp') }}" alt="">
             </div>
         </div>
 
         <div class="section-3 flex gap-8 flex-col sm:items-center sm:flex-row  sm:my-16">
             <div class="s3-right sm:w-[80%]">
-                <img class="rounded-2xl shadow-xl" src="{{ asset('images/banner3.webp') }}" alt="">
+                <img class="rounded-2xl shadow-xl" src="{{ asset('images/place.jpeg') }}" alt="">
             </div>
             <div class="s3-left flex flex-col gap-4 sm:w-[35%]">
                 <div class="text space-y-2">
@@ -43,9 +43,17 @@
                 <a href="/login">
                     <button
                     type="submit"
-                    class="w-full px-4 py-2 text-sky-200 bg-slate-950 hover:bg-slate-800 transition rounded-lg">Reserve Now</button>
+                    class="w-full px-4 py-2 text-gray-700 bg-slate-950 hover:bg-slate-800 transition rounded-lg">Reserve Now</button>
                 </a>
             </div>
         </div>
+    </div>
+
+    <div class="flex justify-center item-center">
+        <h1 class="text-3xl font-bold">Location</h1>
+    </div>
+
+    <div class="container mx-auto p-4 rounded-3xl mb-5">
+        <div id="map" class="w-full h-96 bg-gray-300 rounded-3xl"></div>
     </div>
 @endsection

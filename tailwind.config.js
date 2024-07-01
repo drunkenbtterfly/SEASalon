@@ -24,7 +24,7 @@ export default {
     function ({ addUtilities }) {
       addUtilities({
         '.text-gradient': {
-          'background-image': 'linear-gradient(to right, #7ec8e3, #c9a1e0)',
+          'background-image': 'linear-gradient(to top right, #374151, #4f46e5)',
           '-webkit-background-clip': 'text',
           'background-clip': 'text',
           'color': 'transparent',

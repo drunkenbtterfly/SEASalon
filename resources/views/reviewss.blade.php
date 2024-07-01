@@ -1,6 +1,10 @@
 @extends('app.layout')
 @section('content')
 
+<div class="h-10 mt-10 flex justify-center items-center">
+    <h1 class="text-3xl font-bold text-[#1a2737]">What They Say About Us💫</h1>
+</div>
+
 <div class="max-w-screen-md mx-auto grid gap-20 md:flex md:flex-col md:items-center p-10 mb-5">
     <figure class="text-center">
         <svg class="w-10 h-10 mx-auto mb-3 text-[#1a2737]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">

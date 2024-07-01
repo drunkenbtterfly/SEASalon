@@ -1,10 +1,10 @@
 @extends('app.layout')
 @section('content')
     <div class="flex w-full items-center justify-center p-8">
-        <div class="rounded-lg border-2 border-[#1a2737] py-4 px-2 bg-opacity-80 text-card-foreground shadow-[0_0_10px_theme('colors.violet.200')] w-full max-w-md" data-v0-t="card">
+        <div class="rounded-lg border-2 border-gray-700 py-4 px-2 bg-opacity-80 text-card-foreground shadow-[0_0_10px_theme('colors.black')] w-full max-w-md" data-v0-t="card">
             <div class="flex flex-col pt-6 items-center text-center">
                 <h3 class="text-3xl font-bold">Welcome</h3>
-                <p class="text-slate-600 w-[75%]">Log in to access full features of SEA Salon</p>
+                <p class="w-[75%]">Log In to Book Your SEASalon Experience</p>
                 @session('status')
                     <p class="mt-2 px-3 rounded bg-red-600 text-white text-center text-lg">{{ session('status') }}</p>
                 @endsession
@@ -37,9 +37,9 @@
                     </div>
                     <div class="buttons flex flex-col items-center gap-3">
                         <button type="submit"
-                            class="w-full px-4 py-2 text-white bg-slate-950 hover:bg-slate-800 transition rounded-lg">Log
+                            class="w-full px-4 py-2 text-gray-700 bg-slate-950 hover:bg-slate-800 transition rounded-lg">Log
                             in</button>
-                        <p class="text-slate-700 text-center">New to SEASalon? <a href="/register" class="underline">Create
+                        <p class="text-center">New to SEASalon? <a href="/register" class="underline">Create
                                 an account</a></p>
                     </div>
                 </form>
