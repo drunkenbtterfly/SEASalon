@@ -75,7 +75,7 @@ npm run dev
 yarn dev
 ```
 
-Start your Laravel server:
+Start your Laravel server in another terminal:
 
 ```bash
 php artisan serve
